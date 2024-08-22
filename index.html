@@ -33,7 +33,9 @@
   <body class="manrope-font">
     <!-- Header area -->
     <header class="bg-gradient-to-t from-white to-gray-100">
-      <div class="container mx-auto px-2 md:px-0 pb-12 md:pb-24">
+      <div
+        class="container mx-auto px-2 md:px-5 xl:px-5 lg:px-5 2xl:px-0 pb-12 md:pb-24"
+      >
         <!-- Navbar start -->
         <nav>
           <div class="navbar items-center justify-between py-10">
@@ -129,7 +131,7 @@
             </p>
 
             <button
-              class="bg-lime-200 w-11/12 md:w-2/12 justify-center py-4 px-12 flex items-center rounded-full gap-3 mx-auto font-extrabold text-lg"
+              class="bg-lime-200 w-10/12 md:w-auto justify-center py-4 px-12 flex items-center rounded-full gap-3 mx-auto font-extrabold text-lg"
             >
               View Details
               <i
@@ -144,60 +146,125 @@
 
     <!-- Main area -->
     <main>
-    <section class="bg-gray-100">
-      <div
-      class="container mx-auto py-12 md:py-24 flex flex-col md:flex-row items-center justify-between gap-12 md:gap-24 px-2 md:px-0"
-    >
-      <div class="flex-1">
-        <div class="col-span-2 space-y-6 text-center md:text-start">
-          <a class="btn bg-white rounded-3xl font-extrabold text-lg"
-            ><i
-              class="fa-solid fa-arrow-right text-gray-500 rounded-full h-8 w-8 flex items-center justify-center"
-            ></i>
-            About Us
-          </a>
-
-          <h1 class="text-3xl md:text-5xl font-extrabold">
-            We design thoughtful, liveable spaces
-          </h1>
-          <p class="text-gray-500">
-            The barn house captivates with its blend of rustic charm and
-            modern sophistication, featuring weathered wood, sleek metal
-            accents.
-          </p>
-        </div>
-
+      <!-- About Us section start -->
+      <section class="bg-gray-100 relative">
         <div
-          class="grid grid-cols-1 md:grid-cols-2 mt-6 lg:grid-cols-1 gap-6"
+          class="container mx-auto py-12 md:py-20 flex flex-col lg:flex-row items-center justify-between gap-12 md:gap-24 px-2 md:px-5 xl:px-5 lg:px-5 2xl:px-0"
         >
-          <div class="bg-white flex items-center p-7 gap-5 rounded-xl">
-            <div><img src="./assets/commercial.png" alt="" /></div>
-            <div class="space-y-2">
-              <h2 class="text-xl md:text-2xl font-extrabold">Commercial</h2>
+          <div
+            class="absolute left-10 top-1 hidden lg:block lg:left-2 lg:top-5 2xl:left-32 2xl:top-32 xl:top-10"
+          >
+            <img src="./assets/Vector.png" alt="" />
+          </div>
+          <div class="flex-1">
+            <div class="col-span-2 space-y-6 text-center md:text-start">
+              <a class="btn bg-white rounded-3xl font-extrabold text-lg"
+                ><i
+                  class="fa-solid fa-arrow-right text-gray-500 rounded-full h-8 w-8 flex items-center justify-center"
+                ></i>
+                About Us
+              </a>
+
+              <h1 class="text-3xl md:text-5xl font-extrabold">
+                We design thoughtful, liveable spaces
+              </h1>
               <p class="text-gray-500">
                 The barn house captivates with its blend of rustic charm and
-                modern.
+                modern sophistication, featuring weathered wood, sleek metal
+                accents.
               </p>
+            </div>
+
+            <div
+              class="grid grid-cols-1 md:grid-cols-2 mt-6 lg:grid-cols-1 gap-6"
+            >
+              <div class="bg-white flex items-center p-7 gap-5 rounded-xl">
+                <div><img src="./assets/commercial.png" alt="" /></div>
+                <div class="space-y-2">
+                  <h2 class="text-xl md:text-2xl font-extrabold">Commercial</h2>
+                  <p class="text-gray-500">
+                    The barn house captivates with its blend of rustic charm and
+                    modern.
+                  </p>
+                </div>
+              </div>
+              <div class="bg-white flex items-center p-7 gap-5 rounded-xl">
+                <div><img src="./assets/commercial.png" alt="" /></div>
+                <div class="space-y-2">
+                  <h2 class="text-xl md:text-2xl font-extrabold">
+                    Residential
+                  </h2>
+                  <p class="text-gray-500">
+                    The barn house captivates with its blend of rustic charm and
+                    modern.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="bg-white flex items-center p-7 gap-5 rounded-xl">
-            <div><img src="./assets/commercial.png" alt="" /></div>
-            <div class="space-y-2">
-              <h2 class="text-xl md:text-2xl font-extrabold">Residential</h2>
-              <p class="text-gray-500">
-                The barn house captivates with its blend of rustic charm and
-                modern.
-              </p>
-            </div>
+
+          <div class="flex-1">
+            <img class="w-full" src="./assets/Rectangle.png" alt="" />
           </div>
         </div>
-      </div>
+      </section>
+      <!-- About Us section end -->
 
-      <div class="flex-1">
-        <img class="w-full" src="./assets/Rectangle.png" alt="" />
-      </div>
-    </div>
-    </section>
+      <!-- Stat secetion start-->
+      <section class="bg-gray-100 pb-24">
+        <div class="container mx-auto px-2 md:px-5 xl:px-5 lg:px-5 2xl:px-0">
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 items-center justify-between bg-white rounded-xl"
+          >
+
+
+            <div class="stats text-center py-5 md:py-12">
+              <div class="stat space-y-3">
+                <div class="stat-title">
+                  <i class="fa-regular fa-comment-dots text-4xl"></i>
+                </div>
+                <div class="stat-value text-gray-600">235+</div>
+                <div class="stat-desc text-gray-500">Happy Client Review</div>
+              </div>
+            </div>
+
+            <div class="stats text-center py-5 md:py-12">
+              <div class="stat space-y-3">
+                <div class="stat-title">
+                  <i class="fa-solid fa-industry text-4xl"></i>
+                </div>
+                <div class="stat-value text-gray-600">50+</div>
+                <div class="stat-desc text-gray-500">Work Departments</div>
+              </div>
+            </div>
+
+
+            <div class="stats text-center py-5 md:py-12">
+              <div class="stat space-y-3">
+                <div class="stat-title">
+                  <i class="fa-solid fa-users-viewfinder text-4xl"></i>
+                </div>
+                <div class="stat-value text-gray-600">30k+</div>
+                <div class="stat-desc text-gray-500">Our Happy Client</div>
+              </div>
+            </div>
+
+
+            <div class="stats text-center py-5 md:py-12">
+              <div class="stat space-y-3">
+                <div class="stat-title">
+                  <i class="fa-solid fa-user-group text-4xl"></i>
+                </div>
+                <div class="stat-value text-gray-600">307+</div>
+                <div class="stat-desc text-gray-500">Staff Members</div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+      <!-- Stat secetion start-->
     </main>
 
     <!-- Footer area -->
